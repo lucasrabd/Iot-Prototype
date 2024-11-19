@@ -1,0 +1,34 @@
+[
+    {
+        "id": "4a99ffa6bd1d8c25",
+        "type": "inject",
+        "z": "f9ab57802f520981",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Temperatura:",
+        "payload": "31",
+        "payloadType": "num",
+        "x": 960,
+        "y": 560,
+        "wires": [
+            [
+                "dc6a960ac471992b",
+                "c0c29e04b780d816",
+                "a03d865e1fb55084",
+                "6274794655a98171"
+            ]
+        ]
+    }
+]
